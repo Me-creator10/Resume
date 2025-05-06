@@ -134,4 +134,59 @@
     margin: 0 10px;
     font-size: 1.4rem;
   }
+  #graph {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #1f1f1f;
+  }
+  
+  .graph-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .skill {
+    margin: 15px 0;
+  }
+  
+  .skill label {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .graph-bar {
+    background-color: #333;
+    border-radius: 8px;
+    height: 20px;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+  }
+  
+  .graph-bar div {
+    height: 100%;
+    border-radius: 8px;
+  }
+  
+  .html {
+    background-color: #ff6f61;
+  }
+  
+  .css {
+    background-color: #00bcd4;
+  }
+  
+  .leadership {
+    background-color: #ffcc00;
+  }
+  
+  .communication {
+    background-color: #4caf50;
+  }
+  
+  .graph-bar div {
+    transition: width 1s ease-out;
+  }
   
